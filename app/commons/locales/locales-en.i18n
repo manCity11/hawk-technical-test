@@ -1,0 +1,7 @@
+{
+  "globals": {
+    "yes": "yes",
+    "no": "no",
+    "currency": "€"
+  }
+}

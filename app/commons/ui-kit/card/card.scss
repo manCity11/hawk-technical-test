@@ -1,0 +1,11 @@
+@import "../styles/constants";
+
+.card {
+  background-color: getColor("white");
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  height: 430px;
+  align-items: center;
+  padding: 50px;
+}

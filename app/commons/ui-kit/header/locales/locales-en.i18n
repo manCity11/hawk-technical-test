@@ -1,0 +1,9 @@
+{
+  "header": {
+    "email": "contact@pokemoncarte.com",
+    "account": {
+      "login": "login",
+      "myAccount": "my account"
+    }
+  }
+}

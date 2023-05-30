@@ -1,0 +1,12 @@
+.floating-cart-summary {
+  &__product {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 5px;
+  }
+
+  &__quantity {
+    margin: 0 10px;
+  }
+}

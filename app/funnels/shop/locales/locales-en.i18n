@@ -1,0 +1,8 @@
+{
+  "shop": {
+    "errorMessage": "Oops! Something went wrong. Please try again",
+    "cardsCatalog": {
+      "title": "Our products"
+    }
+  }
+}

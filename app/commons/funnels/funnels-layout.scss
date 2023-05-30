@@ -1,0 +1,59 @@
+@import "//fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0";
+@import "../ui-kit/styles/constants";
+
+.funnels-layout {
+  &__container {
+    background-color: getColor("blue", "wilight");
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title{
+    text-align: center;
+  }
+
+  &__button {
+    font-size: 17px;
+    padding: .5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px getColor("black", "default", .4);
+    background: getColor("blue", "dodger");
+    color: getColor("white");
+    border-radius: 4px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &-cart {
+    &-container {
+      background-color: getColor("white", "wild");
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      max-height: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 20px;
+
+      &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+
+    &__left {
+      display: flex;
+      align-items: center;
+    }
+
+    &__right {
+      margin-right: 50px;
+    }
+  }
+}

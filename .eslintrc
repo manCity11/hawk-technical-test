@@ -1,0 +1,43 @@
+{
+  "root": true,
+  "parser": "@babel/eslint-parser",
+  "plugins": [
+    "react",
+    "react-hooks",
+    "mocha"
+  ],
+  "extends": [
+    "airbnb",
+    "plugin:react/recommended"
+  ],
+  "globals": {
+    "test": true,
+    "expect": true,
+    "jest": true,
+    "require": true,
+    "exports": true,
+    "module": true,
+    "describe": true,
+    "document": true,
+    "window": true,
+    "_": true,
+    "beforeEach": true
+  },
+  "rules": {
+    "default-param-last": 0,
+    "global-require": 0,
+    "no-mixed-operators": 0,
+    "max-len": ["error", { "code": 130, "ignoreTrailingComments": true }],
+    "react/jsx-filename-extension": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/display-name": 0,
+    "react/function-component-definition": 0,
+    "react/jsx-no-constructed-context-values": 0,
+    "import/prefer-default-export": 0,
+    "camelcase": 0,
+    "react/react-in-jsx-scope": 0,
+    "react/forbid-prop-types": 0,
+    "react/require-default-props": 0,
+    "import/no-unresolved": 0
+  }
+}

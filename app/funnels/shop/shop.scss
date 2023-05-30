@@ -1,0 +1,14 @@
+.shop {
+  .cards-catalog {
+    &__container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      align-self: center;
+      justify-content: space-evenly;
+      justify-items: center;
+      align-content: space-evenly;
+      align-items: center;
+      gap: 10px 20px;
+    }
+  }
+}
