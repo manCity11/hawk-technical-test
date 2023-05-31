@@ -1,17 +1,12 @@
 {
   "name": "hawk-technical-test",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/gulp serve",
-    "build": "./node_modules/.bin/gulp build",
-    "lint": "./node_modules/.bin/gulp lint",
-    "test": "./node_modules/.bin/gulp test --coverage"
+    "start": "gulp serve",
+    "build": "gulp build",
+    "lint": "gulp lint",
+    "test": "gulp test --coverage"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@babel/eslint-parser": "^7.21.8",
     "@babel/preset-env": "^7.21.5",
